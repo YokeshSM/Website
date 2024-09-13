@@ -1,0 +1,262 @@
+/* *{
+    margin: 0%;
+}
+.cont {
+    height:6rem;
+    width: 100%;
+    background-color:mediumaquamarine ;
+    display: flex;
+    flex-direction:row;
+   justify-content:space-evenly;
+    margin-right: 10px;
+    align-items: center;
+}
+.section1{
+   margin-left: 2%; 
+   margin-top:2%;
+   margin-right:2%;
+}
+
+.img img{
+    border-radius: 30%;
+       height:80px;
+}
+
+.dets{
+    height:60px;
+    width:150px;align-content:center;
+}
+.dets h2{ 
+    text-align: center;
+}
+.section2{
+    margin-left: 2%; 
+    margin-top:2%;
+    margin-right:2%;
+}
+.obj{
+    height: 100px;
+    background-color: antiquewhite;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:2%;
+}
+.obj p{
+    text-align: center;
+}
+.edu{
+    margin-left: 2%; 
+    margin-top:2%;
+    margin-right:2%;
+}
+tr,th{
+    text-align: center;
+}
+
+ .edu td, .edu th{
+    height:2rem;
+    width:2%;
+    padding:2%;
+    border:solid 2px;
+}
+td,th{
+    height:2rem;
+}
+table{
+    border-collapse:collapse;
+}
+.section3{
+padding:2%;
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+}
+.cer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.title{
+    width:0.5%;
+}
+.section4 {
+    
+}
+.box{
+ 
+  display: flex;
+  justify-content: left;
+}
+.con {
+    list-style:square;
+    padding: 2%;
+}
+.crs,p{
+    text-align: center;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #181717;
+    outline: 3px #181717 solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .button svg path {
+    transition: 400ms;
+  }
+  
+  .button:hover {
+    background-color: transparent;
+  }
+  
+  .button:hover .text {
+    color: #181717;
+  }
+  
+  .button:hover svg path {
+    fill: #181717;
+  } */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.section1, .section2, .edu, .section3, .skills-section, .hobbies-section, .soft-skills-section {
+    margin-bottom: 20px;
+}
+
+.section1 .cont {
+    display: flex;
+    justify-content: center;
+
+     align-items: center; 
+    gap: 20px;
+}
+
+.img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.dets h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.dets p {
+    color: #555;
+    margin: 5px 0 0 0;
+}
+.section2 h1, .edu h1, .section3 h1, .skills-section h1, .hobbies-section h1, .soft-skills-section h1 {
+    font-size: 22px;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.section2 p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+table td {
+    color: #555;
+}
+
+/* Certification Table */
+.cer table {
+    width: 100%;
+}
+
+.cer table td.title {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Skills and Hobbies Section */
+.skills-section ul, .hobbies-section ul, .soft-skills-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-section ul li, .hobbies-section ul li, .soft-skills-section ul li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 4px solid #007BFF;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Footer Links Styling */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #007BFF;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
